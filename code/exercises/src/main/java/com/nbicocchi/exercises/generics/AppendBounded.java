@@ -11,4 +11,9 @@ public class AppendBounded {
     //public static <T, S extends T> void append(List<T> dst, List<S> src) {
     //    dst.addAll(src);
     //}
+
+    // Alternative version
+    //public static <T> void append(List<? super T> dst, List<T> src){
+    //    dst.addAll(src);
+    //}    
 }
